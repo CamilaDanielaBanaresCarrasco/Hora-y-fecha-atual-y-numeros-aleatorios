@@ -1,0 +1,17 @@
+body {
+  background-image: linear-gradient(to right, #4b0082, #9370db);
+}
+
+
+.cart-white{
+  background-color: #fff; /* Establecer el color de fondo de la carta */
+  border: 1px solid #000; /* Establecer un borde sólido de color negro */
+  border-radius: 10px; /* Establecer una esquina redondeada para la carta */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Establecer una sombra difusa alrededor de la carta */
+  padding: 20px; /* Establecer un relleno interior para la carta */
+  height: 300px;
+}
+
+#cartUno {
+  font-size: 3rem;
+}

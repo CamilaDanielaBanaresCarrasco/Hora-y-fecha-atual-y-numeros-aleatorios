@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="Asset/Css/style.css">
+  <title>Tabla Con Bootstrap</title>
+</head>
+
+<body>
+
+  <section class="row">
+
+   <!--  cart grande -->
+    <div class="col-6 cart-white m-auto ">
+        <h1 class="px-2 py-4 text-center font-size-xl"  id="cartUno" >Bienvenido a la plataforma Eport</h1>
+       <div class="py-x5">
+        <h2 class="px-5 " >Aquí podra encontrar la informacion de vuelos más</h2>
+        <h2 class="px-5 " >recientes en nuestro aeropuerto.</h2>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="row d-flex justify-content-center ">
+    <div class="col-2 cart-white mx-4 my-4  py-5 px-5">
+      <h2 class="text-center pt-5">Hora:</h2>
+      <h1 class="text-center pt-1" id="horaEnEsteMomento"></h1>
+    </div>
+
+    <div class="col-2 cart-white my-4 py-5 px-5">
+      <h2 class="text-center pt-5">Fecha:</h2>
+      <h1 class="text-center pt-1" id="fechaDeEsteMomento">-</h1>
+      
+    </div>
+
+  </section>
+
+
+  <div class="col-4 cart-white my-4 m-auto py-5 px-5">
+    <h2 class="text-center pt-5">El vuelo más proximo:</h3>
+    <h4 class="text-center pt-1" >Número de vuelo <span id="vueloAleatorio"></span></h4>
+    <h4 class="text-center pt-1" >Terminal <span id="terminalAleatorio"></span></h4>
+  </div>
+
+  </div>
+
+
+
+
+
+  <!-- // ESTE CODIGO LO SAQUE DE https://canvasjs.com/javascript-charts/animated-chart/ -->
+  <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+  <!--  <script src="Asset/Js/jquery-3.6.4.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+  <script src="Asset/Js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
